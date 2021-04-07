@@ -2,10 +2,20 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="mole.css">
-    <script type="text/javascript" src="mole.js"></script>>
+    <script type="text/javascript" src="mole.js"></script>
   </head>
   <body>
-    <div class='pf'>
+    <div id="main">
+      <span id="span">
+        <h3 id="score">Score: 0</h3>
+        <h3 id="message"></h3>
+        <h3 id="moles">Moles remaining: 0</h3>
+      </span>
+        <div class='pf'>
+        <div class='wgs'>
+          <img class='wgs__molehead wgs__molehead--hidden' src='./mole-head.png'>
+          <img class='wgs__dirtpile' src='./mole-hill.png'>
+        </div>
       <div class='wgs'>
         <img class='wgs__molehead wgs__molehead--hidden' src='./mole-head.png'>
         <img class='wgs__dirtpile' src='./mole-hill.png'>
@@ -34,11 +44,8 @@
         <img class='wgs__molehead wgs__molehead--hidden' src='./mole-head.png'>
         <img class='wgs__dirtpile' src='./mole-hill.png'>
       </div>
-      <div class='wgs'>
-        <img class='wgs__molehead wgs__molehead--hidden' src='./mole-head.png'>
-        <img class='wgs__dirtpile' src='./mole-hill.png'>
-      </div>
+    </div>
   </div>
-  </body>
+</body>
 </html>
 
